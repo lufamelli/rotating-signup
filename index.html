@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="global.css" />
+    <title>My Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sign-card">
+        <input type="email" class="sign-input" placeholder="Email" />
+        <input type="text" class="sign-input" placeholder="Password" />
+        <button class="btn" type="submit">Sign in</button>
+        <a href="#">Forgot your password?</a>
+        <button class="btn" type="button" id="open-signup">Sign up</button>
+      </div>
+    </div>
+    <div class="signup-form">
+      <label class="input-label">
+        Full Name
+        <input
+          type="text"
+          class="sign-input"
+          placeholder="Insert your full name"
+        />
+      </label>
+      <label class="input-label">
+        Email
+        <input type="email" class="input" placeholder="Insert your best email" />
+      </label>
+      <label class="input-label">
+        Password
+        <input
+          type="text"
+          class="sign-input"
+          placeholder="Insert your password"
+        />
+      </label>
+      <div class="signup-buttons">
+        <button class="btn" type="submit">Proceed</button>
+        <button class="btn" id="close-signup">Back to Sign in</button">
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
